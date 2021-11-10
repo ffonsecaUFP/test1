@@ -18,8 +18,6 @@ class HelloWorld
         $this->pdo->query($sql);
         return "Hello $what";
     }
-
-
     
     public function what()
     {
